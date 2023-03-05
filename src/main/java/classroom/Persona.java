@@ -37,7 +37,7 @@ public class Persona {
     public Persona(String nombre) {
     	totalPersonas++;
         this.cedula = 1;
-		this.nombre = "";
+		this.nombre = nombre;
         
     }
   /// getters and setters
